@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: linear-gradient(to left top,  rgb(186, 38, 162),rgb(169, 149, 21));
+}
+
+html{
+    font-size: 12px;
+}
+
+/*styling first div*/
+.bg-image{
+    background-image:url(OIP.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+
+}
+
+#first-div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.text-styling{
+    display: inline-block;
+    font-size: 6rem;
+    border: 1px solid purple;
+    width: 5%;
+    word-wrap: break-word;
+    padding: 20px;
+    color:purple;
+    opacity: 0.8;
+    margin: auto 5%;
+    text-align: center;
+}
+
+
+/*styling second div*/
+
+ #second-divison{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+ #text{
+    flex-grow: 1;
+    margin-top: 25px;
+    font-size: 2.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 60px;
+} 
+#quote{
+    margin-top:50px;
+}
+
+
+#third-div{
+    min-height: 100vh;
+}
+
+.container{
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6% 1%;
+    font-size: 1.8rem;
+} 
